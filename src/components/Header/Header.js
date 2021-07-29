@@ -3,14 +3,14 @@ import React from 'react';
 import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { GiBoltEye } from 'react-icons/gi';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-          <GiBoltEye size='3rem' /><span>EdisonAbdiel</span>
+        <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '10px' }}>
+          <GiBoltEye size='3rem' /><Span>EdisonAbdiel</Span>
         </a>
       </Link>
     </Div1>
@@ -21,7 +21,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href="#techno">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>

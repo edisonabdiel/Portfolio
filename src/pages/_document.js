@@ -31,7 +31,13 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en-GB'>
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="keywords" content="web development, e-commerce" />
+          <meta name="description" content="description" />
+          {/* <link rel="icon" type="image/ico" href={icon} /> */}
+          <title>EdisonAbdiel</title>
         </Head>
         <body>
           <Main />

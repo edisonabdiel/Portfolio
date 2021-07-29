@@ -17,6 +17,13 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Span = styled.span` 
+   font-size: 2.2rem;
+   color: ${(props) => props.theme.colors.secondary1};
+   margin-left: 0.5rem;
+   `;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -52,7 +59,7 @@ export const NavLink = styled.a`
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {
-    color: #fff;
+    color: ${(props) => props.theme.colors.secondary1};
     opacity: 1;
     cursor: pointer;
   }
@@ -116,9 +123,9 @@ color: white;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
+    background-color: 'linear-gradient(135deg, #868f96 10%, #596164 100%)';
+    transform: scale(2.1);
     cursor: pointer;
-    
+    transition: 0.3s ease;
   }
 `
