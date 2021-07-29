@@ -32,7 +32,7 @@ export const BlogCard = styled.div`
   background: ${'linear-gradient(135deg, #434343 10%, #000000 100%)'};
   &:hover {
     box-shadow: 5px 5px 30px rgba(80, 78, 78, 0.5);
-    transform: scale(1.1);
+    transform: scale(1.03);
     cursor: pointer;
     transition: 0.3s ease-in-out;
   }

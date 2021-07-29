@@ -6,8 +6,6 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () => (
   <Section id="techno">
-    <SectionDivider />
-    <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       As a full stack developer, I've worked with a range of technologies and services. However, always gravitate towards the hottest and most cutting edge frontend frameworks and libraries.
@@ -19,7 +17,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>JavaScript</ListTitle>
           <ListParagraph> +3 years of experience <br />
-            ES6.
+            ES6 + JQuery.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -118,7 +116,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>MongoDB</ListTitle>
           <ListParagraph> +3 years of experience <br />
-            BigQuery + Cloud Storage.
+            BigQuery + Cloud Storage, MERN, Meteor.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -133,6 +131,8 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider />
+    <br />
   </Section>
 );
 

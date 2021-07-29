@@ -67,6 +67,7 @@ export const ListTitle = styled.h4`
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 8px;
+  
 
 @media ${props => props.theme.breakpoints.md}{
   font-size: 24px;
@@ -101,6 +102,12 @@ export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
   flex-direction: column;
+  &:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: ${(props) => props.theme.colors.secondary1};
+  }
 
 @media ${props => props.theme.breakpoints.md}{
   max-width: 203px;

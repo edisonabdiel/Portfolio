@@ -24,7 +24,7 @@ export const LinkItem = styled.a`
 	left: 0;
 
 	&:hover {
-		color: #fff;
+		color: ${(props) => props.theme.colors.secondary1};
 		left: 6px;
 	}
 
@@ -82,10 +82,10 @@ export const CompanyContainer = styled.div`
 
 
 export const Slogan = styled.p`
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 200, 0.5);
 	min-width: 280px;
 	letter-spacing: 0.02em;
-	font-size: 18px;
+	font-size: 1.7rem;
 	line-height: 30px;
 	padding: 1rem;
 
@@ -100,6 +100,11 @@ export const Slogan = styled.p`
 		min-width: 100px;
 	}
 `
+export const Span = styled.span` 
+   font-size: 1.2rem;
+   color: ${(props) => props.theme.colors.secondary1};
+   margin-left: 0.5rem;
+   `;
 
 export const SocialContainer = styled.div`
 	display: flex;
