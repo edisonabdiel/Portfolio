@@ -19,8 +19,8 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>“Keep in mind that imagination is at the heart of all innovation. Crush or constrain it and the fun will vanish.” <br />
-            <Span>Albert-Laszlo Barabasi.</Span>
+          <Slogan>“The secret of change is to focus all of your energy, not on fighting the old, but building on the new.” <br />
+            <Span>Socrates.</Span>
           </Slogan>
         </CompanyContainer>
         <SocialContainer>

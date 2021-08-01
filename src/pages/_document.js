@@ -1,7 +1,12 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
+
+
+
 export default class MyDocument extends Document {
+
+
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet()
     const originalRenderPage = ctx.renderPage
@@ -34,9 +39,9 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="keywords" content="web development, e-commerce" />
+          <meta name="keywords" content="web development, portfolio" />
           <meta name="description" content="description" />
-          {/* <link rel="icon" type="image/ico" href={icon} /> */}
+          <link rel="icon" type="image/ico" href="../../public/abstract-design-223-152-246002.png" />
           <title>EdisonAbdiel</title>
         </Head>
         <body>

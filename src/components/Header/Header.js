@@ -1,14 +1,14 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { GiBoltEye } from 'react-icons/gi';
+import { GiBleedingEye } from 'react-icons/gi';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 // Framer Motion modules
 import { motion } from 'framer-motion';
 // Variants
-import { fadeInUp, stagger, fadeIn, fadeInSlide } from '../../variants/variants';
+import { fadeInUp } from '../../variants/variants';
 
 const Header = () => (
   <Container>
@@ -16,7 +16,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '10px' }}>
-          <GiBoltEye size='3rem' /><Span>EdisonAbdiel</Span>
+          <GiBleedingEye size='3rem' /><Span>EdisonAbdiel</Span>
         </a>
       </Link>
     </Div1>
