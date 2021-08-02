@@ -12,7 +12,7 @@ const Hero = () => (
         My Personal Site
       </SectionTitle>
       <SectionText>
-        Software Shinobi 忍び strving for a world of awesome-looking apps.
+        Software Shinobi 忍び striving for a world of awesome-looking apps.
       </SectionText>
       <Button onClick={() => window.location = "https://github.com/edisonabdiel"}>Learn More</Button>
     </LeftSection>

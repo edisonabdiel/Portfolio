@@ -8,7 +8,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 // Framer Motion modules
 import { motion } from 'framer-motion';
 // Variants
-import { fadeInUp } from '../../variants/variants';
+import { fadeInUp, fadeInSlide } from '../../variants/variants';
 
 const Header = () => (
   <Container>
@@ -24,29 +24,41 @@ const Header = () => (
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>Projects</NavLink>
+          <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }} variants={fadeInSlide}>
+            <NavLink>Projects</NavLink>
+            </motion.div>
         </Link>
       </li>
       <li>
         <Link href="#techno">
-          <NavLink>Technologies</NavLink>
+          <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }} variants={fadeInSlide}>
+            <NavLink>Technologies</NavLink>
+            </motion.div>
         </Link>
       </li>
       <li>
         <Link href="#random">
-          <NavLink>Random Facts</NavLink>
+          <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }} variants={fadeInSlide}>
+            <NavLink>Random Facts</NavLink>
+            </motion.div>
         </Link>
         </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/edisonabdiel">
-        <AiFillGithub size='2.5rem' />
+      <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }} variants={fadeInUp}>
+          <AiFillGithub size='2.5rem' />
+          </motion.div>
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/edison-abdiel-32467b1a7/">
-        <AiFillLinkedin size='2.5rem' />
+        <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }} variants={fadeInUp}>
+          <AiFillLinkedin size='2.5rem' />
+          </motion.div>
       </SocialIcons>
       <SocialIcons href="https://www.facebook.com/edison.abdiel">
-        <AiFillFacebook size='2.5rem' />
+        <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }} variants={fadeInUp}>
+          <AiFillFacebook size='2.5rem' />
+          </motion.div>
       </SocialIcons>
     </Div3>
   </Container>
