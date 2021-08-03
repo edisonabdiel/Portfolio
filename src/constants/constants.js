@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Framer Motion Online Shop',
-    description:"A cute little Online Shop showcasing the power of Framer Motion and vanilla CSS. All the elements in the page have been animated, giving life and a neat-modern feeling to the page",
+    description:"A cute little Online Shop showcasing the power of Framer Motion and vanilla CSS. All the elements in the page have been animated, giving life and a neat-modern feeling to the app.",
     image: '/images/project2.png',
     tags: ['React', 'NEXT.js', 'Framer Motion', 'SCSS'],
     source: 'https://google.com',
