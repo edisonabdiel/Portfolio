@@ -1,7 +1,7 @@
 export const projects = [
   {
-    title: 'TDD Serveless MeetApp',
-    description: "This one is Serverless app which displays coding events around the wolrd upon an specific entry by the user. It might not be the best looking of my projects. However, It compensates with complexity. It was build from begginning to end using a TDD & BDD approach as well a OAuth cobined with AWS Lambda and the Google API (calendar evetns).",
+    title: 'TDD Serverless MeetApp',
+    description: "This one is a PWA & Serverless app which displays coding events around the wolrd upon an specific entry by the user. It might not be the best looking of my projects. However, It compensates with complexity. It was build from begginning to end using a TDD & BDD approach as well a OAuth cobined with AWS Lambda and the Google API (calendar events). It also features data visualization charts from Recharts.",
       image: '/images/project1.png',
       tags: ['React', 'AWS Lambda', 'Jest', 'Cucumber.js'],
     source: 'https://edisonabdiel.github.io/meet-app/',
