@@ -96,7 +96,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Google Cloud Platform</ListTitle>
           <ListParagraph> +2 years of experience <br />
-            BigQuery + Cloud Storage.
+            BigQuery + Cloud Storage, Firebase.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -116,7 +116,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>MongoDB</ListTitle>
           <ListParagraph> +3 years of experience <br />
-            BigQuery + Cloud Storage, MERN, Meteor.
+            MERN, Meteor.
           </ListParagraph>
         </ListContainer>
       </ListItem>
