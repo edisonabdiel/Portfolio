@@ -13,7 +13,7 @@ export const projects = [
     description:"A cute little Online Shop showcasing the power of Framer Motion and vanilla CSS. All the elements in the page have been animated, giving life and a neat-modern feeling to the app.",
     image: '/images/project2.png',
     tags: ['React', 'NEXT.js', 'Framer Motion', 'SCSS'],
-    source: 'https://google.com',
+    source: 'https://edisonabdiel.github.io/Shopper/',
     visit: 'https://github.com/edisonabdiel/Shopper',
     id: 1,
   },
