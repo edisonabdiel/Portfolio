@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="random">
       <SectionTitle>Random Facts About Me</SectionTitle>
       <SectionText>
-        A proud owner of a lovely frenchie named Caesar. Deeply passionate about writing and reading. Been playing console videogames since 1994. Gymnastics and a helthy diet are an essential part of my day to day life. Social Activist for a more equalitarian world. Currently obssessed with Three.JS & Framer Motion.
+        A proud owner of a lovely frenchie named Caesar. Deeply passionate about writing and reading. Been playing console videogames since 1994. Gymnastics and a healthy diet are an essential part of my day to day life. Social Activist for a more equalitarian world. Currently obssessed with Three.JS & Framer Motion.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
