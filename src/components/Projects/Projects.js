@@ -1,13 +1,14 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
+    <SectionText>These are some of my most recent projects. They showcase a range of different development methods, stacks and data base set ups.</SectionText>
     <GridContainer>
       {projects.map(({id, image, title, description, tags, source, visit }) => (
         <BlogCard key={id}>

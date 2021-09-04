@@ -35,6 +35,24 @@ export const projects = [
     visit: 'https://github.com/edisonabdiel/Jelly-Shapes3D',
     id: 3,
   },
+  {
+    title: 'React Weather',
+    description: "A fully functional weather forecast app made with React and openweathermap.org. It features a neat search bar and a set of weather recommendations as well as a ;ight and dark mode toggle function.",
+    image: '/images/project5.png',
+    tags: ['React', 'lodash', 'Tailwind-css'],
+    // source: 'https://goofy-einstein-873cb3.netlify.app/',
+    visit: 'https://github.com/edisonabdiel/React-Weather',
+    id: 4,
+  },
+  {
+    title: 'Surface Sampling 3D Showcase',
+    description: "Yet another project showcasing the power of Three.js. This one in particular goes more into exploring Surface Sampling using the the MeshSurfaceSampler to create interesting effects on the 3D models.",
+    image: '/images/project6.png',
+    tags: ['JavaScript', 'Three.js', 'HTML', 'CSS'],
+    source: 'https://ecstatic-snyder-f72d87.netlify.app/',
+    visit: 'https://github.com/edisonabdiel/SurfaceSampling',
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [

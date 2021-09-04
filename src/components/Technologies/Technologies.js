@@ -28,7 +28,7 @@ const Technologies = () => (
           <ListTitle>React.JS</ListTitle>
           <ListParagraph> +3 years of experience. <br />
             NEXT.js + Zustand <br />
-            React Native.
+            React Native, Context API.
           </ListParagraph>
         </ListContainer>
       </ListItem>
