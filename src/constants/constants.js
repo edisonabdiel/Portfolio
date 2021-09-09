@@ -40,7 +40,7 @@ export const projects = [
     description: "A fully functional weather forecast app made with React and openweathermap.org. It features a neat search bar and a set of weather recommendations as well as a ;ight and dark mode toggle function.",
     image: '/images/project5.png',
     tags: ['React', 'lodash', 'Tailwind-css'],
-    // source: 'https://goofy-einstein-873cb3.netlify.app/',
+    source: 'https://admiring-lumiere-61f62f.netlify.app/',
     visit: 'https://github.com/edisonabdiel/React-Weather',
     id: 4,
   },
