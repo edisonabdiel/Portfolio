@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     title: 'React Weather',
-    description: "A fully functional weather forecast app made with React and openweathermap.org. It features a neat search bar and a set of weather recommendations as well as a ;ight and dark mode toggle function.",
+    description: "A fully functional weather forecast app made with React and openweathermap.org. It features a neat search bar and a set of weather recommendations as well as a light and dark mode toggle function.",
     image: '/images/project5.png',
     tags: ['React', 'lodash', 'Tailwind-css'],
     source: 'https://admiring-lumiere-61f62f.netlify.app/',
@@ -52,6 +52,15 @@ export const projects = [
     source: 'https://ecstatic-snyder-f72d87.netlify.app/',
     visit: 'https://github.com/edisonabdiel/SurfaceSampling',
     id: 5,
+  },
+  {
+    title: 'Chairs 3D',
+    description: "Yet another project showcasing the power of Three.js. This one in particular goes more into exploring Surface Sampling using the the MeshSurfaceSampler to create interesting effects on the 3D models.",
+    image: '/images/project7.png',
+    tags: ['React', 'Three.js', 'React-Three-Fiber', 'CSS', 'Drei'],
+    source: 'https://3dchairs.netlify.app/',
+    visit: 'https://github.com/edisonabdiel/3d-Chairs',
+    id: 6,
   },
 ];
 
