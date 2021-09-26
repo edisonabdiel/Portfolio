@@ -8,7 +8,7 @@ const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
-    <SectionText>These are some of my most recent projects. They showcase a range of different development methods, stacks and data base set ups.</SectionText>
+    <SectionText>These are some of my most recent projects. They showcase a range of different development methods, styling techniques, APIs, stacks and data base set ups.</SectionText>
     <GridContainer>
       {projects.map(({id, image, title, description, tags, source, visit }) => (
         <BlogCard key={id}>

@@ -9,7 +9,7 @@ export const Container = styled.div`
   padding: 1rem;
   padding-top: 2rem;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${({theme}) => theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 60px);
@@ -20,7 +20,7 @@ export const Container = styled.div`
 
 export const Span = styled.span` 
    font-size: 2.2rem;
-   color: ${(props) => props.theme.colors.secondary1};
+   color: ${({theme}) => theme.colors.secondary1};
    margin-left: 0.5rem;
    `;
 
@@ -29,7 +29,7 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${({theme}) => theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
