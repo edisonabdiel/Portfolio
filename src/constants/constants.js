@@ -76,8 +76,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey with my first programming language: SQL.', },
-  { year: 2018, text: "Made my first GitHub PR. Started diving into JavaScript and its ecosystem. Started my first bootcamp", },
-  { year: 2019, text: 'Developed my first (of several) tool from scratch, regularly used by one of the operational teams at SoundCloud.', },
-  { year: 2020, text: 'Started my second bootcamp. Became a full-time Software Engineer at SoundCloud.', },
-  { year: 2021, text: 'Flew the nest in direction towards my next big professional adventure.', },
+  { year: 2018, text: "Made my first GitHub PR. Started diving into HTML, CSS, JavaScript and its ecosystem. Started my first bootcamp", },
+  { year: 2019, text: 'Developed my first (of several) tool from scratch, regularly used by one of the operational teams at SoundCloud. Started my second bootcamp.', },
+  { year: 2020, text: 'Became a full-time Software Engineer at SoundCloud.', },
+  { year: 2021, text: 'Solidfied my frontend experience. Flew the nest in direction towards my next big professional adventure.', },
 ];

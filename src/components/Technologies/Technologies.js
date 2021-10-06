@@ -17,7 +17,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>JavaScript</ListTitle>
           <ListParagraph> +3 years of experience <br />
-            ES6 + JQuery, Loadash, TypeScript.
+            ES6 + JQuery, Loadash <br />
+            TypeScript.
           </ListParagraph>
         </ListContainer>
       </ListItem>
