@@ -17,7 +17,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>JavaScript</ListTitle>
           <ListParagraph> +3 years of experience <br />
-            ES6 + JQuery, TypeScript.
+            ES6 + JQuery, Loadash, TypeScript.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -66,7 +66,7 @@ const Technologies = () => (
         <br />
         <ListContainer>
           <ListTitle>Redux</ListTitle>
-          <ListParagraph> 1 year of experience <br />
+          <ListParagraph> +2 year of experience <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -125,7 +125,7 @@ const Technologies = () => (
         <br />
         <ListContainer>
           <ListTitle>Amazon Web Services</ListTitle>
-          <ListParagraph> -1 year of experience <br />
+          <ListParagraph> 1 year of experience <br />
             Lambda.
           </ListParagraph>
         </ListContainer>

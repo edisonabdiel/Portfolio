@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="keywords" content="web development, portfolio" />
           <meta name="description" content="description" />
-          <link rel="icon" type="image/ico" href="../../public/abstract-design-223-152-246002.png" />
+          <link rel="icon" type="image/ico" href="../../public/favicon.ico" />
           <title>EdisonAbdiel</title>
         </Head>
         <body>

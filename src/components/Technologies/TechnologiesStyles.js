@@ -106,7 +106,7 @@ export const ListItem = styled.li`
     transform: scale(1.03);
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    color: ${(props) => props.theme.colors.secondary1};
+    color: ${({theme }) => theme.colors.secondary1};
   }
 
 @media ${props => props.theme.breakpoints.md}{

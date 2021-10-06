@@ -1,4 +1,3 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
@@ -26,7 +25,6 @@ const Home = () => {
       <Projects />
       <Technologies />
       <Timeline />
-        {/* <Acomplishments /> */}
         <Footer/>
         </motion.div>
     </Layout>
