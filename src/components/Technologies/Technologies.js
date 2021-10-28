@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaJsSquare, FaReact, FaNode, FaHtml5, FaCss3, FaGitSquare, FaAws } from 'react-icons/fa';
-import { SiRedux, SiFramer, SiGooglecloud , SiMysql, SiMongodb } from 'react-icons/si'
+import { SiRedux, SiFramer, SiGooglecloud, SiMysql, SiMongodb, SiTypescript, SiStorybook, SiTailwindcss } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -17,8 +17,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>JavaScript</ListTitle>
           <ListParagraph> +3 years of experience <br />
-            ES6 + JQuery, Loadash <br />
-            TypeScript.
+            ES6 + JQuery, Loadash
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -58,7 +57,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>CSS3</ListTitle>
           <ListParagraph> +3 years of experience <br />
-            SCSS, Tailwind.css, Bootstrap & Material UI.
+            SCSS, SASS, Bootstrap.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -68,6 +67,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Redux</ListTitle>
           <ListParagraph> +2 year of experience <br />
+            ReduxToolkit, Redux-Saga, Redux-Thunk.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -128,6 +128,36 @@ const Technologies = () => (
           <ListTitle>Amazon Web Services</ListTitle>
           <ListParagraph> 1 year of experience <br />
             Lambda.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <SiTypescript size="5rem" />
+        <br />
+        <ListContainer>
+          <ListTitle>TypeScript</ListTitle>
+          <ListParagraph> +2 year of experience <br />
+            NEXT.js, React Native.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <SiStorybook size="5rem" />
+        <br />
+        <ListContainer>
+          <ListTitle>StoryBook</ListTitle>
+          <ListParagraph> +2 year of experience <br />
+            Own Component Library.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <SiTailwindcss size="5rem" />
+        <br />
+        <ListContainer>
+          <ListTitle>TailwindCSS</ListTitle>
+          <ListParagraph> +2 year of experience <br />
+            TailwindUI.
           </ListParagraph>
         </ListContainer>
       </ListItem>
