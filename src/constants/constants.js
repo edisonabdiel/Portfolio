@@ -9,13 +9,22 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'CogBlog',
+    description: "My most ambitious project so far. CogBlog is a modern and fully fuctional blog for fictional characters who are also aspiring writters. Built with state-of-the-art technologies.",
+    image: '/images/project10.png',
+    tags: ['React', 'TypeScript', 'GraphQL', 'TailwindCSS', 'Next.JS'],
+    source: 'https://cog-blog.vercel.app/',
+    visit: 'https://github.com/edisonabdiel/CogBlog',
+    id: 1,
+  },
+  {
     title: 'Chairs 3D',
     description: "Yet another project showcasing the power of Three.js. This one in particular goes more into exploring Surface Sampling using the the MeshSurfaceSampler to create interesting effects on the 3D models.",
     image: '/images/project7.png',
     tags: ['React', 'Three.js', 'React-Three-Fiber', 'CSS', 'Drei'],
     source: 'https://3dchairs.netlify.app/',
     visit: 'https://github.com/edisonabdiel/3d-Chairs',
-    id: 1,
+    id: 2,
   },
   {
     title: 'StoryMe',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['React', 'MongoDB', 'Node.js', 'Material UI'],
     source: 'https://storyme-app.herokuapp.com/',
     visit: 'https://github.com/edisonabdiel/StoryMe',
-    id: 2,
+    id: 3,
   },
   {
     title: 'React Weather',
@@ -33,15 +42,6 @@ export const projects = [
     tags: ['React', 'lodash', 'Tailwind-css'],
     source: 'https://react-weather-edison.netlify.app/',
     visit: 'https://github.com/edisonabdiel/React-Weather',
-    id: 3,
-  },
-  {
-    title: 'Jelly Shapes',
-    description: "A neat wobbly demo about the power of Three.js + React-Fiber-Three. The shapes are clickable and zoomable, cast shadows and they also wobble just like jelly. Only the tip of the icerberg of what can be achieved with Three.js and Fiber.",
-    image: '/images/project4.png',
-    tags: ['React', 'Three.js', 'React-Fiber-Three', 'SASS'],
-    source: 'https://jelly-shapes.netlify.app/',
-    visit: 'https://github.com/edisonabdiel/Jelly-Shapes3D',
     id: 4,
   },
   {
