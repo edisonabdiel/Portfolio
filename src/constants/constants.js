@@ -27,13 +27,22 @@ export const projects = [
     id: 2,
   },
   {
+    title: 'GPT-3 by OpenAI',
+    description: "Just an awesome looking landing page for the OpenAI project called GPT-3. What is special about this project is that it was styled 100% with vanilla CSS to showcase they power of the BEM methodology",
+    image: '/images/project11.png',
+    tags: ['React', 'CSS'],
+    source: 'https://gpt-3.netlify.app/',
+    visit: 'https://github.com/edisonabdiel/GTP-3-LandingPage',
+    id: 3,
+  },
+  {
     title: 'StoryMe',
     description: "A social platform for users to post short stories and poems. A fully funtional MERN app with its designated API and OAuth system. Styled with SASS + Material UI components.",
       image: '/images/project3.png',
       tags: ['React', 'MongoDB', 'Node.js', 'Material UI'],
     source: 'https://storyme-app.herokuapp.com/',
     visit: 'https://github.com/edisonabdiel/StoryMe',
-    id: 3,
+    id: 4,
   },
   {
     title: 'React Weather',
@@ -42,7 +51,7 @@ export const projects = [
     tags: ['React', 'lodash', 'Tailwind-css'],
     source: 'https://react-weather-edison.netlify.app/',
     visit: 'https://github.com/edisonabdiel/React-Weather',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Surface Sampling 3D Showcase',
@@ -51,7 +60,7 @@ export const projects = [
     tags: ['JavaScript', 'Three.js', 'HTML', 'CSS'],
     source: 'https://surface-sampling.netlify.app/',
     visit: 'https://github.com/edisonabdiel/SurfaceSampling',
-    id: 5,
+    id: 6,
   },
   {
     title: 'SmartXpense',
@@ -60,7 +69,7 @@ export const projects = [
     tags: ['React', 'Context API', 'Framer Motion', 'Material-UI'],
     source: 'smart-xpense.netlify.app',
     visit: 'https://github.com/edisonabdiel/SmartXpense',
-    id: 6,
+    id: 7,
   },
   {
     title: 'Framer Motion Online Shop',
@@ -69,7 +78,16 @@ export const projects = [
     tags: ['React', 'NEXT.js', 'Framer Motion', 'SCSS'],
     source: 'https://google.com',
     visit: 'https://github.com/edisonabdiel/Shopper',
-    id: 7,
+    id: 8,
+  },
+  {
+    title: 'Jelly Shapes',
+    description: "A neat wobbly demo about the power of Three.js + React-Fiber-Three. The shapes are clickable and zoomable, cast shadows and they also wobble just like jelly. Only the tip of the icerberg of what can be achieved with Three.js and Fiber.",
+    image: '/images/project4.png',
+    tags: ['React', 'Three.js', 'React-Fiber-Three', 'SASS'],
+    source: 'https://jelly-shapes.netlify.app/',
+    visit: 'https://github.com/edisonabdiel/Jelly-Shapes3D',
+    id: 9,
   },
   
 ];

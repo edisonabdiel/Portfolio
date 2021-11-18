@@ -57,6 +57,7 @@ export const HeaderThree = styled.h3`
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
   &:hover {
     color: ${(props) => props.theme.colors.secondary1};
+    transition: .5s ease;
   }
 `;
 
@@ -122,6 +123,6 @@ export const Tag = styled.li`
 color: rgba(255, 255, 255, 0.75);
 font-size: 1.5rem;
 &:hover{
-  color: ${(props) => props.theme.colors.secondary1};
+  color: ${({theme}) => theme.colors.secondary1};
 }
 `

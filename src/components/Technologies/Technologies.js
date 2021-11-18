@@ -66,7 +66,7 @@ const Technologies = () => (
         <br />
         <ListContainer>
           <ListTitle>Redux</ListTitle>
-          <ListParagraph> +2 year of experience <br />
+          <ListParagraph> +2 years of experience <br />
             ReduxToolkit, Redux-Saga, Redux-Thunk.
           </ListParagraph>
         </ListContainer>
@@ -136,7 +136,7 @@ const Technologies = () => (
         <br />
         <ListContainer>
           <ListTitle>TypeScript</ListTitle>
-          <ListParagraph> +2 year of experience <br />
+          <ListParagraph> +2 years of experience <br />
             NEXT.js, React Native.
           </ListParagraph>
         </ListContainer>
@@ -146,7 +146,7 @@ const Technologies = () => (
         <br />
         <ListContainer>
           <ListTitle>StoryBook</ListTitle>
-          <ListParagraph> +2 year of experience <br />
+          <ListParagraph> +2 years of experience <br />
             Own Component Library.
           </ListParagraph>
         </ListContainer>
@@ -156,7 +156,7 @@ const Technologies = () => (
         <br />
         <ListContainer>
           <ListTitle>TailwindCSS</ListTitle>
-          <ListParagraph> +2 year of experience <br />
+          <ListParagraph> +2 years of experience <br />
             TailwindUI.
           </ListParagraph>
         </ListContainer>
