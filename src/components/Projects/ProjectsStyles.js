@@ -33,7 +33,6 @@ export const BlogCard = styled.div`
   &:hover {
     box-shadow: 5px 5px 30px rgba(80, 78, 78, 0.5);
     transform: scale(1.03);
-    cursor: pointer;
     transition: 0.3s ease-in-out;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -111,6 +110,8 @@ border-radius: 15px;
 transition: 0.5s;
 &:hover{
   background: ${'linear-gradient(135deg, #536976 10%, #292E49 100%)'};
+  transform: scale(1.10);
+  transition: 0.3s ease-in-out;
 }
 `;
 
