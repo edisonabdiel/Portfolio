@@ -15,3 +15,15 @@ npm run build
 -Framer Motion
 -CSS
 -npm
+
+## build with docker
+
+`$ docker build --tag edisonabdiel/portfolio:latest .`
+
+## run with docker
+
+`$ docker run edisonabdiel/portfolio:latest`
+
+## push docker image
+
+`$ docker push edisonabdiel/portfolio:latest`
